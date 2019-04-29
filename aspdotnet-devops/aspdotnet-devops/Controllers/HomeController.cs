@@ -22,6 +22,7 @@ namespace aspdotnet_devops.Controllers
             return View();
         }
 
+        //Adding the testing comments
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
