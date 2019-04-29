@@ -8,12 +8,13 @@ namespace aspdotnet_devops.Controllers
 {
     public class HomeController : Controller
     {
-        //Adding the testing comments
+    
         public ActionResult Index()
         {
             return View();
         }
 
+        //Adding the testing comments
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
