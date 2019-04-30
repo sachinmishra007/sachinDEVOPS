@@ -7,6 +7,9 @@ module.exports = function (config) {
     frameworks: ['jasmine', '@angular-devkit/build-angular'],
     plugins: [
       require('karma-jasmine'),
+      require('karma-coverage-istanbul-reporter'), // <- Add plugin
+      require('karma-junit-reporter'), // <- Add plugin
+      require('karma-phantomjs-launcher'),
       require('karma-chrome-launcher'),
       require('karma-jasmine-html-reporter'),
       require('karma-coverage-istanbul-reporter'),
@@ -24,8 +27,8 @@ module.exports = function (config) {
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
-    autoWatch: true,
-    browsers: ['Chrome'],
+    autoWatch: true, 
+    browsers: ['Chrome', 'PhantomJS'], // <- Add browser,
     singleRun: false,
     restartOnFileChange: true
   });
