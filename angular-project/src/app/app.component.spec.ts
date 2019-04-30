@@ -38,5 +38,10 @@ describe('AppComponent', () => {
     expect(fixture.debugElement.componentInstance.add(10,20)).toBe(30);
   });
 
+  it('3. Should give me the addition of the Numbers', () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    expect(fixture.debugElement.componentInstance.add(10,20)).toBe(-30);
+  });
+
 
 });
