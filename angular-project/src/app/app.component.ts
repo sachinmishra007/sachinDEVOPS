@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-project';
+  title = 'angular-Dem-project';
 
   public add(a: any, b: any) {
     return Number.parseInt(a) + Number.parseInt(b);
