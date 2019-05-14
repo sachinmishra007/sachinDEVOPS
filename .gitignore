@@ -325,4 +325,4 @@ ASALocalRun/
 
 # NVidia Nsight GPU debugger configuration file
 *.nvuser
-/angular-project/src/TESTS-PhantomJS_2.1.1_(Windows_8.0.0).xml
+/angular-project/test-reports

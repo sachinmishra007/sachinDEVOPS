@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "code-coverage": "ng test --code-coverage",
-    "test-single-headless": "ng test --watch=false --browsers=PhantomJS --reporters=progress,junit"
+    "test-single-headless": "ng test --code-coverage --watch=false --browsers=ChromeHeadless --reporters=junit,progress"
   },
   "private": true,
   "dependencies": {
